@@ -7,4 +7,5 @@ sed -i '' 's/dnexus.c//g' dialects/darwin/libproc/Makefile
 sed -i '' 's/dnexus.o//g' dialects/darwin/libproc/Makefile
 
 # make
+export MACOSX_DEPLOYMENT_TARGET=10.12
 make DEBUG=-g
